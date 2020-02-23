@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<style>
+	h1{
+		font-size:50px;
+		font-family:Arial Black;
+	}
+	
+	div{
+		width:500px;
+		height:400px;
+		background-color:black;
+		align:center;
+		font-size:25px;
+		border-radius:10%;
+	}
+	
+	p{
+		color:white;
+		text-align:left;
+	}
+	
+	table{
+	align:left;
+	font-size:25px;	
+	}
+	
+	.bookmark{
+	font-size:30px;
+	}
+	
+
+</style>
+
+<body style="background-color:#55FEB5 ">
+	
+	<p class="bookmark">
+		<a href="#topic1">1. What is HTML?</a><br>
+		<a href="#topic2">2. HTML Documents</a><br>
+		<a href="#topic3">3. HTML Elements</a><br>
+		<a href="#topic4">4. HTML Attributes</a><br>
+		<a href="#topic5">5. Basic HTML Tags</a><br>
+		<a href="#topic6">6. Writing the Basic Program</a><br>
+		<a href="#topic7">7. Some other tags</a><br>
+	</p><br><br><br><br><br>
+	<hr color="#02B86A ">
+	<br><br><br><br>
+
+	<h1 id="topic1">What is HTML?</h1>
+	<ul>
+		<li style="font-size:25px;">HTML is the standard markup language for creating Web pages.</li>
+		<li style="font-size:25px;">HTML stands for Hyper Text Markup Language.</li>
+		<li style="font-size:25px;">HTML describes the structure of a Web page.</li>
+	</ul>
+	<hr color="#02B86A ">
+	<br>
+	
+	<h1 id="topic2">HTML Documents</h1>
+	<ul>
+		<li style="font-size:25px;">All HTML documents must start with a document type declaration: <b>&lt;!DOCTYPE html&gt;</b>.</li>
+		<li style="font-size:25px;">The HTML document itself begins with <b>&lt;html&gt;</b> and ends with <b>&lt;/html&gt;</b>.</li>		
+	</ul>
+	<hr color="#02B86A ">
+	<br>
+
+	<h1 id="topic3">HTML Elements</h1>
+	<ul>
+		<li style="font-size:25px;">An HTML element usually consists of a start tag and an end tag, with the content inserted in between:<br>
+		<b>&lt;tagname&gt;</b>Content goes here...<b>&lt;/tagname&gt;</b></li>
+	</ul>
+	<hr color="#02B86A ">
+	<br>
+	
+	<h1 id="topic4">HTML Attributes</h1>
+	<ul>
+		<li style="font-size:25px;">Attributes provide additional information about an element.</li>
+		<li style="font-size:25px;">Attributes usually come in name/value pairs like: name="value".</li>
+	</ul>
+	<hr color="#02B86A ">
+	<br>	
+		
+	<h1 id="topic5">Basic HTML tags</h1>
+	<ul>	
+		<li style="font-size:25px;"><b>&lt;body&gt;</b> Defines the visible part of the HTML document.</li>
+		<li style="font-size:25px;"><b>&lt;head&gt;</b> Defines information about the document.</li>
+		<li style="font-size:25px;"><b>&lt;title&gt;</b> Defines a title for the document.</li>
+		<li style="font-size:25px;">HTML paragraphs are defined with <b>&lt;p&gt;</b> tag.</li>
+		<li style="font-size:25px;">Headings are defined with the <b>&lt;h1&gt;</b> to <b>&lt;h6&gt;</b> tags.<br>
+			<b>&lt;h1&gt;</b> defines the most important heading and <b>&lt;h6&gt;</b> defines the least important heading.</li>
+	</ul>
+	<hr color="#02B86A ">
+	<br>
+
+	<h1 id="topic6">Writing the basic program</h1>
+	<center><div>
+		<p>
+		<br> <br>
+			&lt;!DOCTYPE html&gt;<br>
+			<font color="red">&lt;html&gt;</font><br>
+			
+			<font color="red">&lt;head&gt;</font><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">&lt;title&gt;</font>Webpage<font color="red">&lt;/title&gt;</font><br>
+			<font color="red">&lt;/head&gt;</font><br>
+			
+			<font color="red">&lt;body&gt;</font><br>
+
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">&lt;h1&gt;</font>My First Heading<font color="red">&lt;/h1&gt;</font><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">&lt;p&gt;</font>My first paragraph.<font color="red">&lt;/p&gt;</font><br>
+
+			<font color="red">&lt;/body&gt;</font><br>
+			<font color="red">&lt;/html&gt;</font>
+		</p>
+	</div></center>
+	<br>
+	<hr color="#02B86A ">
+	<br>
+	
+	<h1 id="topic7">Some other tags</h1>
+	<table> 
+	
+		<tr><th>&lt;img&gt;</th><td> Defines an image</td></tr>
+		<tr><th>&lt;a&gt;</th> <td>Defines the hyperlinks</td></tr>
+		<tr><th>&lt;button&gt;</th><td> Defines a clickable button</td></tr>
+		<tr><th>&lt;marquee&gt;</th><td> To create moving text or image</td></tr>
+		<tr><th>&lt;ul&gt;</th><td> To create unordered list</td></tr>
+		<tr><th>&lt;ol&gt;</th><td> To create ordered list</td><tr>
+		<tr><th>&lt;li&gt;</th><td> Defines list items marked with either disc, circle, square, a, A, i, I, 1 or none.</td></tr>
+		<tr><th>&lt;table&gt;</th><td> To create a table</td></tr>
+		<tr><th>&lt;tr&gt;</th><td> To create a row in the table</td></tr>
+		<tr><th>&lt;th&gt;</th><td> Defines table heading (text appears in bold)</th></tr>
+		<tr><th>&lt;td&gt;</th><td> Defines table data</th></tr>
+		<tr><th>&lt;thead&gt;</th><td> Text written between this tag always appears in the top row of the table.</td></tr>
+		<tr><th>&lt;tfoot&gt;</th><td> Text written between this tag always appears in the bootom row of the table.</td></tr>
+		<tr><th>&lt;tbody&gt;</th><td> Text written between this tag appears between the top and bottom row.</td></tr>
+		<tr><th>&lt;b&gt;</th><td> Defines bold text</td></tr>
+		<tr><th>&lt;strong&gt;</th><td> Defines important text</td></tr>
+		<tr><th>&lt;i&gt;</th><td> Defines italic text</td></tr>
+		<tr><th>&lt;em&gt;</th><td> Defines emphasized text</td></tr>
+		<tr><th>&lt;u&gt;</th><td> Defines underlined text</td></tr>
+		<tr><th>&lt;ins&gt;</th><td> Defines inserted text</td></tr>
+		<tr><th>&lt;del&gt;</th><td> Defines deleted text</td></tr>
+		<tr><th>&lt;mark&gt;</th><td> Highlights the text</td></tr>
+		<tr><th>&lt;small&gt;</th><td> Decreases the size of the text</td></tr>
+		<tr><th>&lt;sub&gt;</th><td> To place a text in subscript</td></tr>
+		<tr><th>&lt;sup&gt;</th><td> To place a text in superscript</td></tr>
+		<tr><th>&lt;abbr&gt;</th><td> Defines an abbreviatin or acronym</td></tr> 
+		<tr><th>&lt;address&gt;</th><td> Defines the contact information of the author of a document in italics </td></tr>
+		<tr><th>&lt;cite&gt;</th><td> Defines the title of a work or citation in italics</td></tr> 
+		<tr><th>&lt;bdo&gt;</th><td> bdo stands for Bi-Directional Override and is used to override the current text direction </td></tr>
+		<tr><th>&lt;map&gt;</th><td> Used to define a client-side image-map. An image-map is an image with clickable areas.</td></tr>
+		<tr><th>&lt;area&gt;</th><td> Defines area inside an image map</td></tr>
+		<tr><th>&lt;center&gt;</th><td> Aligns the text to center</td></tr> 
+		<tr><th>&lt;code&gt;</th><td> Defines a piece of computer code</td></tr>
+		<tr><th>&lt;pre&gt;</th><td> Defines pre-formatted text</td></tr>
+		<tr><th>&lt;hr&gt;</th><td> Defines a thematic change in the content by giving a horizontal line</td></tr>
+		<tr><th>&lt;br&gt;</th><td> Gives a line break</td></tr>
+		<tr><th>&lt;div&gt;</th><td> Defines a section in a document</td></tr>
+		<tr><th>&lt;iframe&gt;</th><td> Defines an inline frame</td></tr>
+		<tr><th>&lt;picture&gt;</th><td> Defines a container for multiple image resources</td></tr>
+		<tr><th>&lt;source&gt;</th><td> Defines multiple media resources for media elements</td></tr>
+		<tr><th>&lt;span&gt;</th><td> Provides a way to add a hook to a part of a text or a part of a document</td></tr>
+		<tr><th>&lt;style&gt;</th><td> Defines style information for a document</td></tr>
+	</table>
+	<hr color="#02B86A ">
+	<br>
+		
+</body>
+</html>
+
